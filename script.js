@@ -1,4 +1,4 @@
-const API_KEY = 'YOUR_NEWSAPI_KEY';
+const API_KEY = '2d0faef8b49e45669c119fafbf8379dc';
 
 fetch(`https://newsapi.org/v2/top-headlines?country=cn&apiKey=${API_KEY}`)
     .then(response => response.json())
